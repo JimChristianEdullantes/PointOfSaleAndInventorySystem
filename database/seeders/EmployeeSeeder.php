@@ -15,28 +15,6 @@ class EmployeeSeeder extends Seeder
     public function run()
     {
         DB::table('employees')->insert([
-            'first_name' => 'User',
-            'last_name' => 'Admin',
-            'email' => 'admin@gmail.com',
-            'phone_number' => '09513866175',
-            'job_id' => 1,
-            'hired_date'=> date('Y-m-d H:i:s'),
-            'location_id' => 11,
-
-        ]);
-
-        DB::table('employees')->insert([
-            'first_name' => 'User',
-            'last_name' => 'Cashier',
-            'email' => 'cashier@gmail.com',
-            'phone_number' => '09513866175',
-            'job_id' => 1,
-            'hired_date'=> date('Y-m-d H:i:s'),
-            'location_id' => 12,
-
-        ]);
-
-        DB::table('employees')->insert([
             'first_name' => 'Jim Christian',
             'last_name' => 'Edullantes',
             'email' => 'jimchristianedullantes9@gmail.com',
