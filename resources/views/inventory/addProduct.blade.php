@@ -65,7 +65,7 @@
                         <label for="supplier"><h5>Supplier:</h5></label>
                         <select id="supplier" name="supplier_id">
                               @foreach($suppliers as $supplier)
-                                    <option value="{{$supplier->supplier_id}}">{{$supplier->company_name}}</option>
+                                    <option value="{{$supplier->id}}">{{$supplier->company_name}}</option>
                               @endforeach
                         </select>
                     </div>

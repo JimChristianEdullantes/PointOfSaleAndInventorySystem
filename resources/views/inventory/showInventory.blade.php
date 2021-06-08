@@ -5,6 +5,22 @@
 @endsection
 
 @section('content')
+@if(session('addProduct'))
+	<script>
+        alert('Productsaction has been added successfully');
+    	</script>
+@endif
+@if(session('deleteProduct'))
+	<script>
+        alert('Product has been deleted successfully');
+    	</script>
+@endif
+
+@if(session('editProduct'))
+	<script>
+        alert('Product has been updated successfully');
+    	</script>
+@endif
 <div class="card card-custom">
 	<div class="card-header flex-wrap border-0 pt-6 pb-0">
 		<div class="card-title">
